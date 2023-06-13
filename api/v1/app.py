@@ -6,6 +6,7 @@ from models import storage
 from api.v1.views import app_views
 from os import environ
 from api.v1.views.index import *
+from api.v1.views.states import *
 
 app = Flask(__name__)
 
